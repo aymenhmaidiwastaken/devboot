@@ -1,0 +1,34 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(go mod:*)",
+      "Bash(go get:*)",
+      "Bash(go build:*)",
+      "Bash(go run:*)",
+      "Bash(go test:*)",
+      "Bash(go vet:*)",
+      "Bash(ls:*)",
+      "Bash(bash demo/run.sh 2>&1)",
+      "Bash(git config:*)",
+      "Bash(go install:*)",
+      "Bash(npm install:*)",
+      "Bash(bash demo/record.sh 2>&1)",
+      "Bash(node:*)",
+      "Bash(cat:*)",
+      "Bash(sed:*)",
+      "Bash(start:*)",
+      "Bash(which vhs:*)",
+      "Bash(export:*)",
+      "Bash(powershell.exe -Command \"winget install Gyan.FFmpeg --accept-source-agreements --accept-package-agreements\" 2>&1 | tail -10)",
+      "Bash(which ttyd:*)",
+      "Bash(curl -L -o \"$HOME/.local/bin/ttyd.exe\" \"https://github.com/tsl0922/ttyd/releases/download/1.7.7/ttyd.win32.exe\")",
+      "Bash(taskkill:*)",
+      "Bash(curl:*)",
+      "Bash(git init:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(gh auth:*)",
+      "Bash(find:*)"
+    ]
+  }
+}
